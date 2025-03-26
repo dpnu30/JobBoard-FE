@@ -55,13 +55,13 @@ module.exports = {
     		},
     		fontFamily: {
     			sans: [
-    				'ui-sans-serif',
-    				'system-ui',
-    				'sans-serif',
-    				'Apple Color Emoji"',
-    				'Segoe UI Emoji"',
-    				'Segoe UI Symbol"',
-    				'Noto Color Emoji"'
+					'system-ui', // Font hệ thống mặc định
+					'-apple-system', // Cho macOS/iOS
+					'Segoe UI', // Cho Windows
+					'Roboto', // Android
+					'Helvetica Neue', // Phổ biến
+					'Arial', // Dự phòng
+					'sans-serif' // Fallback cuối
     			]
     		},
     		keyframes: {
